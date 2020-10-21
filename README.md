@@ -50,7 +50,7 @@ A major property of EdNet is that the questions come in *bundles*. That is, a co
 
 #### Description
 * `timestamp` is the moment the question was given, represented as **Unix timestamp in milliseconds**.
-* `solving_id` represents each learning session of students corresponds to each bunle. It is a form of single **integer**, starting from `1`. 
+* `solving_id` represents each learning session of students corresponds to each bundle. It is a form of single **integer**, starting from `1`. 
 * `question_id` is the ID of the question that given to student, which is a form of `q{integer}`.
 * `user_answer` is the answer that the student submitted, recorded as a character between `a` and `d` inclusively. 
 * `elapsed_time` is the time that the students spends on each question in **milliseconds**.
